@@ -1,0 +1,110 @@
+body {
+    background: url(../image/background.jpg) repeat-y center center;
+    background-size: cover;
+}
+
+/* Header Section */
+#header {
+    height: 180px;
+}
+#header .logo {
+    background: #dc3413;
+    display: block;
+    max-width: 395px;
+    height: 180px;
+}
+#header .logo img {
+    position: absolute;
+    left: 35px;
+    top: 30px;
+}
+#header .nav {
+    background: #281c13;
+}
+#header .nav .nav-menu {
+    position: relative;
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 40px;
+    padding: 0;
+}
+#header .nav .nav-menu .nav-item {
+    padding: 0 25px;
+    display: inline-block;
+    font-size: 22px;
+    position: relative;
+}
+#header .nav .nav-menu .nav-item a {
+    color: #daae80;
+}
+#header .nav .nav-menu .nav-item:after {
+    content: "....";
+    color: #f9c692;
+    font-size: 22px;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 0;
+    letter-spacing: 5px;
+}
+#header .nav .nav-menu .nav-item:last-of-type:after {
+    display: none;
+}
+#header .nav .nav-menu .icon {
+    margin: 0 auto 20px;
+}
+#header .nav .nav-menu .icon.icon-about {
+    background: url(../image/icons/icon-about.png);
+    width: 52px;
+    height: 48px;
+}
+#header .nav .nav-menu .icon.icon-coffee {
+    background: url(../image/icons/icon-coffee.png);
+    width: 36px;
+    height: 38px;
+}
+#header .nav .nav-menu .icon.icon-menu {
+    background: url(../image/icons/icon-menu.png);
+    width: 25px;
+    height: 45px;
+}
+#header .nav .nav-menu .icon.icon-blog {
+    background: url(../image/icons/icon-blog.png);
+    width: 42px;
+    height: 38px;
+}
+#header .nav .nav-menu .icon.icon-contact {
+    background: url(../image/icons/icon-contact.png);
+    width: 24px;
+    height: 35px;
+}
+/* Slider Section */
+#slider {
+    height: 717px;
+    background: url(../image/slider.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+#slider .slide {
+    height: 100%;
+}
+#slider .slide-bottom {
+    height: 120px;
+    bottom: 0;
+    border-top: 11px solid #dc3413;
+    background: RGBA(0,0,0,.85);
+    padding-top: 16px;
+    padding-left: 44px;
+    margin-right: 4px;
+}
+#slider .slide:last-of-type {
+    margin-right: 0;
+}
+#slider .slide-bottom .title, #slider .slide-bottom .description{
+    color: #f9c793;
+}
+#slider .slide-bottom .title {
+    font-size: 22px;
+}
+#slider .slide-bottom .description {
+    font-size: 16px;
+}
